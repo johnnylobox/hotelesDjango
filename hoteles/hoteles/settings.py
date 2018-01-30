@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'hoteles.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'HOST': '127,0,0,1',
+        'HOST': '127.0.0.1',
         'NAME': 'hoteles',
         'PASSWORD': '123456',
         'PORT': '5432',
